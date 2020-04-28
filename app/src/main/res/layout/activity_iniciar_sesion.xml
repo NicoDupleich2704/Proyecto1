@@ -11,7 +11,7 @@
         android:id="@+id/Titulo_LogIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="80dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/TitutoInicoSesion"
         android:textAlignment="center"
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="1dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="35dp"
         android:text="@string/BotonIngresar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.537"
@@ -72,7 +72,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
         android:background="#B6B5B5"
         android:ems="10"
         android:fontFamily="cursive"
@@ -80,8 +80,9 @@
         android:inputType="textPersonName"
         android:text="@string/IngresaTuNombre"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LogInLogo" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_RegistreseLogIn" />
 
     <EditText
         android:id="@+id/txt_DireccionLogIn"
@@ -99,5 +100,32 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_CelularLogIn" />
+
+    <TextView
+        android:id="@+id/txt_RegistreseLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/Registrese"
+        android:textColor="#636262"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LogInLogo" />
+
+    <TextView
+        android:id="@+id/txt_SloganLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/SloganLogIn"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BotonIngresar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

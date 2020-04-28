@@ -26,6 +26,9 @@
     <string name="IngresaTuCelular">Ingresa Tu Celular</string>
     <string name="IngresaTuDireccion">Ingresa Tu Direccion</string>
     <string name="LogoProvisonal">Logo Provisional</string>
+    <string name="Registrese">Complete Su información</string>
+    <string name="SloganLogIn">*ingrese Slogan Creativo*</string>
 
+    <string name="InicioIngresar">ingresar</string>
 
 </resources>
