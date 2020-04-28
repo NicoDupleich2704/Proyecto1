@@ -25,6 +25,7 @@
     <string name="IngresaTuNombre">Ingresa Tu Nombre</string>
     <string name="IngresaTuCelular">Ingresa Tu Celular</string>
     <string name="IngresaTuDireccion">Ingresa Tu Direccion</string>
+    <string name="LogoProvisonal">Logo Provisional</string>
 
 
 </resources>

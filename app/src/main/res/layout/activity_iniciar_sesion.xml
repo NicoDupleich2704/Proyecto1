@@ -8,10 +8,11 @@
     tools:context=".IniciarSesion">
 
     <TextView
-        android:id="@+id/Tlt_LogIn"
+        android:id="@+id/Titulo_LogIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="sans-serif-black"
         android:text="@string/TitutoInicoSesion"
         android:textAlignment="center"
         android:textColor="#DF6969"
@@ -21,75 +22,82 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/txt_LogInNombre"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="1dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="100dp"
-        android:hint="@string/IngresaTuNombre"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Tlt_LogIn">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/LogInNombre"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#668E68"
-            android:hint="@string/IngresaTuNombre" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <EditText
-        android:id="@+id/LogInCelular"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="1dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="40dp"
-        android:background="#668E68"
-        android:ems="10"
-        android:hint="@string/IngresaTuCelular"
-        android:inputType="number"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_LogInNombre" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="1dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="81dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LogInCelular">
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/LogInDireccion"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="1dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="40dp"
-        android:background="#668E68"
-        android:hint="@string/IngresaTuDireccion"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LogInCelular" />
-
     <Button
         android:id="@+id/BotonIngresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="1dp"
         android:layout_marginStart="1dp"
+        android:layout_marginTop="40dp"
         android:text="@string/BotonIngresar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="522dp" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_DireccionLogIn" />
+
+    <ImageView
+        android:id="@+id/LogInLogo"
+        android:layout_width="173dp"
+        android:layout_height="119dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/LogoProvisonal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Titulo_LogIn"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/txt_CelularLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:background="#B6B5B5"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:hint="@string/IngresaTuCelular"
+        android:inputType="number"
+        android:text="@string/IngresaTuCelular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_NombreLogIn" />
+
+    <EditText
+        android:id="@+id/txt_NombreLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:background="#B6B5B5"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:hint="@string/IngresaTuNombre"
+        android:inputType="textPersonName"
+        android:text="@string/IngresaTuNombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LogInLogo" />
+
+    <EditText
+        android:id="@+id/txt_DireccionLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:background="#B6B5B5"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:hint="@string/IngresaTuDireccion"
+        android:inputType="textPostalAddress"
+        android:text="@string/IngresaTuDireccion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_CelularLogIn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
