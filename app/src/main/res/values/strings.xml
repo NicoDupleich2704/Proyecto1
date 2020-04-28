@@ -20,9 +20,11 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
 
+    <string name="BotonIngresar">Ingresar</string>
     <string name="TitutoInicoSesion">Cuarentena ya!</string>
     <string name="IngresaTuNombre">Ingresa Tu Nombre</string>
     <string name="IngresaTuCelular">Ingresa Tu Celular</string>
     <string name="IngresaTuDireccion">Ingresa Tu Direccion</string>
+
 
 </resources>
