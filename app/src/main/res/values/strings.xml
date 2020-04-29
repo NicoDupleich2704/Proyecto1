@@ -22,10 +22,7 @@
 
     <string name="BotonIngresar">Ingresar</string>
     <string name="TitutoInicoSesion">Cuarentena ya!</string>
-    <EditText>
-        <string name="IngresaTuNombre">Ingresa Tu Nombre</string>
-        android: hint = "Ingresa Tu Nombre"
-    </EditText>
+    <string name="IngresaTuNombre">Ingresa Tu Nombre</string>
     <string name="IngresaTuCelular">Ingresa Tu Celular</string>
     <string name="IngresaTuDireccion">Ingresa Tu Direccion</string>
     <string name="LogoProvisonal">Logo Provisional</string>
