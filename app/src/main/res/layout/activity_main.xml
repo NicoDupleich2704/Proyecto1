@@ -9,9 +9,9 @@
 
     <Button
         android:id="@+id/BotonComida"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="70dp"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="60dp"
         android:layout_marginTop="52dp"
         android:background="#E8DFDF"
         android:backgroundTint="#DCBC5B"
@@ -24,9 +24,9 @@
 
     <Button
         android:id="@+id/BotonMedicina"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="68dp"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="60dp"
         android:layout_marginTop="52dp"
         android:background="#FFFFFF"
         android:backgroundTint="#DCBC5B"
@@ -38,10 +38,10 @@
 
     <Button
         android:id="@+id/BotonMascotas"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="30dp"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="35dp"
         android:background="#FFFFFF"
         android:backgroundTint="#DCBC5B"
         android:text="@string/BotonMascotas"
@@ -51,10 +51,10 @@
 
     <Button
         android:id="@+id/BotonLimpieza"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="68dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="35dp"
         android:background="#FFFFFF"
         android:backgroundTint="#DCBC5B"
         android:text="@string/BotonLimpieza"
@@ -64,10 +64,10 @@
 
     <Button
         android:id="@+id/BotonMedicos"
-        android:layout_width="100dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="30dp"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="35dp"
         android:background="#CACACA"
         android:backgroundTint="#668E68"
         android:text="@string/BotonMedicos"
@@ -77,8 +77,8 @@
 
     <Button
         android:id="@+id/Veterinario"
-        android:layout_width="120dp"
-        android:layout_height="56dp"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
         android:layout_marginTop="120dp"
         android:background="#DDDDDD"
         android:backgroundTint="#668E68"
@@ -90,10 +90,10 @@
 
     <Button
         android:id="@+id/BotonTecnicos"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="70dp"
-        android:layout_marginTop="30dp"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="35dp"
         android:background="#FBFBFB"
         android:backgroundTint="#668E68"
         android:text="@string/BotonTecnicos"
@@ -137,7 +137,7 @@
         android:id="@+id/Servicos_txt"
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="230dp"
         android:backgroundTint="#668E68"
         android:text="@string/TexvoServicio"
         android:textAlignment="center"
