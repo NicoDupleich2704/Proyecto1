@@ -1,4 +1,5 @@
 <resources>
+    //menu
     <string name="app_name">Proyecto</string>
     <string name="BotonComida">Comida</string>
     <string name="BotonMedicina">Medicina</string>
@@ -20,6 +21,7 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
 
+    //logIn
     <string name="BotonIngresar">Ingresar</string>
     <string name="TitutoInicoSesion">Cuarentena ya!</string>
     <string name="IngresaTuNombre">Ingresa Tu Nombre</string>
@@ -29,7 +31,18 @@
     <string name="Registrese">Complete Su información</string>
     <string name="SloganLogIn">"Stay in your house, means stay safe"</string>
 
+    //inicio
     <string name="InicioIngresar">ingresar</string>
+
+    //doctores
+    <string name="TXT_Sintomas">"Describa sus Sintomas:"</string>
+    <string name="DescrippcionSintomas">""</string>
+    <string name="SeleccioneEspecialidad">"Seleccione el especialesta correspondiente y se contactara con usted en breve."</string>
+    <string name="TextoDoctore">"Medicos"</string>
+
+
+
+
 
 </resources>
 
