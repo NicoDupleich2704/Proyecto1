@@ -40,8 +40,12 @@
     <string name="SeleccioneEspecialidad">"Seleccione el especialesta correspondiente y se contactara con usted en breve."</string>
     <string name="TextoDoctore">"Medicos"</string>
 
-
-
+    //tecnicos
+    <string name="TextoTecnicos">"Tecnicos"</string>
+    <string name="TextoProblema">"Describa el problema que tiene."</string>
+    <string name="InTecnicos">""</string>
+    <string name="txt_queTecnico">"Que Tecnico Necesita"</string>
+    <string name="in_queTecnico">""</string>
 
 
 </resources>
