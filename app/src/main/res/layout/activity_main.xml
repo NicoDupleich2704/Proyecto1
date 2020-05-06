@@ -7,15 +7,14 @@
     android:backgroundTint="#C50000"
     tools:context=".MainActivity">
 
-    <Button
+    <ImageButton
         android:id="@+id/BotonComida"
-        android:layout_width="130dp"
-        android:layout_height="55dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginEnd="31dp"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="52dp"
-        android:background="@drawable/fondodoc"
-        android:backgroundTint="#DCBC5B"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/comida"
         android:text="@string/BotonComida"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -24,57 +23,53 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Productos_txt" />
 
-    <Button
+    <ImageButton
         android:id="@+id/BotonMedicina"
-        android:layout_width="130dp"
-        android:layout_height="55dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginEnd="60dp"
-        android:layout_marginTop="52dp"
-        android:background="#FFFFFF"
-        android:backgroundTint="#DCBC5B"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/medicina"
         android:text="@string/BotonMedicina"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Productos_txt" />
 
-    <Button
+    <ImageButton
         android:id="@+id/BotonMascotas"
-        android:layout_width="130dp"
-        android:layout_height="55dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginEnd="31dp"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="35dp"
-        android:background="#FFFFFF"
-        android:backgroundTint="#DCBC5B"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/mascotas"
         android:text="@string/BotonMascotas"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/BotonLimpieza"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BotonComida" />
 
-    <Button
+    <ImageButton
         android:id="@+id/BotonLimpieza"
-        android:layout_width="130dp"
-        android:layout_height="55dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginEnd="60dp"
-        android:layout_marginTop="35dp"
-        android:background="#FFFFFF"
-        android:backgroundTint="#DCBC5B"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/limpieza"
         android:text="@string/BotonLimpieza"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BotonMedicina" />
 
-    <Button
+    <ImageButton
         android:id="@+id/BotonMedicos"
-        android:layout_width="130dp"
-        android:layout_height="55dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginEnd="31dp"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="35dp"
-        android:background="#CACACA"
-        android:backgroundTint="#668E68"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/medicos"
         android:onClick="ingresarDoc"
         android:text="@string/BotonMedicos"
         android:textSize="18sp"
@@ -82,27 +77,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Servicos_txt" />
 
-    <Button
+    <ImageButton
         android:id="@+id/Veterinario"
-        android:layout_width="130dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="120dp"
-        android:background="#DDDDDD"
-        android:backgroundTint="#668E68"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/veterinario"
         android:text="@string/BotonVeterinario"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Servicos_txt" />
 
-    <Button
+    <ImageButton
         android:id="@+id/BotonTecnicos"
-        android:layout_width="130dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="35dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="60dp"
-        android:background="#FBFBFB"
-        android:backgroundTint="#668E68"
+        android:background="@drawable/tecnicos"
         android:onClick="ingresoTec"
         android:text="@string/BotonTecnicos"
         android:textSize="18sp"
@@ -113,8 +106,7 @@
         android:id="@+id/BotonCarrito"
         android:layout_width="64dp"
         android:layout_height="53dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginEnd="15dp"
         android:backgroundTint="#668E68"
         android:contentDescription="@string/BotonCarrito"
         app:layout_constraintBottom_toTopOf="@+id/Productos_txt"
@@ -125,7 +117,7 @@
         android:id="@+id/Productos_txt"
         android:layout_width="180dp"
         android:layout_height="50dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="55dp"
         android:backgroundTint="#668E68"
         android:fontFamily="sans-serif-black"
         android:text="@string/TextoProductos"
@@ -145,7 +137,7 @@
         android:id="@+id/Servicos_txt"
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:layout_marginTop="230dp"
+        android:layout_marginTop="270dp"
         android:backgroundTint="#668E68"
         android:text="@string/TexvoServicio"
         android:textAlignment="center"
