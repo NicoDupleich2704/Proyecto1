@@ -23,7 +23,7 @@
 
     //logIn
     <string name="BotonIngresar">Ingresar</string>
-    <string name="TitutoInicoSesion">Cuarentena ya!</string>
+    <string name="TitutoInicoSesion">!Cuarentena Ya!</string>
     <string name="IngresaTuNombre">Ingresa Tu Nombre</string>
     <string name="IngresaTuCelular">Ingresa Tu Celular</string>
     <string name="IngresaTuDireccion">Ingresa Tu Direccion</string>
