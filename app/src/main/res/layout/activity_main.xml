@@ -9,8 +9,8 @@
 
     <ImageButton
         android:id="@+id/BotonComida"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginEnd="31dp"
         android:layout_marginStart="60dp"
         android:layout_marginTop="20dp"
@@ -25,8 +25,8 @@
 
     <ImageButton
         android:id="@+id/BotonMedicina"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginEnd="60dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/medicina"
@@ -38,8 +38,8 @@
 
     <ImageButton
         android:id="@+id/BotonMascotas"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginEnd="31dp"
         android:layout_marginStart="60dp"
         android:layout_marginTop="30dp"
@@ -52,7 +52,7 @@
 
     <ImageButton
         android:id="@+id/BotonLimpieza"
-        android:layout_width="100dp"
+        android:layout_width="80dp"
         android:layout_height="100dp"
         android:layout_marginEnd="60dp"
         android:layout_marginTop="30dp"
