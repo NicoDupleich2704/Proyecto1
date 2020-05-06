@@ -45,7 +45,10 @@
     <string name="TextoProblema">"Describa el problema que tiene."</string>
     <string name="InTecnicos">""</string>
     <string name="txt_queTecnico">"Que Tecnico Necesita"</string>
-    <string name="in_queTecnico">""</string>
+    <string name="DescripcionLogoTecnicos">""</string>
+
+
+
 
 
 </resources>
