@@ -23,13 +23,13 @@
 
     //logIn
     <string name="BotonIngresar">Ingresar</string>
-    <string name="TitutoInicoSesion">Cuarentena ya!</string>
+    <string name="TitutoInicoSesion">!Cuarentena Ya!</string>
     <string name="IngresaTuNombre">Ingresa Tu Nombre</string>
     <string name="IngresaTuCelular">Ingresa Tu Celular</string>
     <string name="IngresaTuDireccion">Ingresa Tu Direccion</string>
     <string name="LogoProvisonal">Logo Provisional</string>
     <string name="Registrese">Complete Su información</string>
-    <string name="SloganLogIn">"Stay in your house, means stay safe"</string>
+    <string name="SloganLogIn">"''Stay in your house, means stay safe''"</string>
 
     //inicio
     <string name="InicioIngresar">ingresar</string>
