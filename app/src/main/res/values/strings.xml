@@ -48,6 +48,15 @@
     <string name="DescripcionLogoTecnicos">""</string>
 
 
+    //animales
+    <string name="txt_veterinaria">"Veterinaria"</string>
+    <string name="txt_queanimaltiene">"¿Que Animal Tiene?"</string>
+
+
+
+
+
+
 </resources>
 
 
