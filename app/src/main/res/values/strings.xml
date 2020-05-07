@@ -61,9 +61,8 @@
     <string name="in_otroVeterinario">" "</string>
 
 
-
-
-
+    //ProductosAnimales
+    <string name="TituloProductosAnimales">"Productos Para Tus Mascotas"</string>
 
 
 </resources>
