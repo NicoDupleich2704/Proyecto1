@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
 
     ImageButton ingresarDoctores;
     ImageButton ingresarTecnicos;
+    ImageButton ingresarTiposComida;
+    ImageButton ingresarTiposMascotas;
 
 
     @Override
@@ -21,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
 
         ingresarDoctores = (ImageButton)findViewById(R.id.BotonMedicos);
         ingresarTecnicos = (ImageButton)findViewById(R.id.BotonTecnicos);
+        ingresarTiposComida = (ImageButton)findViewById(R.id.BotonComida);
+        ingresarTiposMascotas = (ImageButton)findViewById(R.id.BotonMascotas);
 
 
     }
@@ -38,5 +42,10 @@ public class MainActivity extends AppCompatActivity {
     public void ingresoTipoComida(View view){
         Intent ingresoTC = new Intent(this, TiposComidaActivity.class);
         startActivity(ingresoTC);
+    }
+
+    public void ingresoTiposMascotas (View view){
+        Intent ingresoTM = new Intent(this, ProductosAnimalesActivity.class);
+        startActivity(ingresoTM);
     }
 }
