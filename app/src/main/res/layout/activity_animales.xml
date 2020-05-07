@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo_mascotas"
     tools:context=".AnimalesActivity">
 
     <CheckBox
@@ -16,11 +17,91 @@
         android:padding="10dp"
         android:text="@string/txtGato"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/txt_perro" />
+
+    <CheckBox
+        android:id="@+id/txt_hamster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="111dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="96dp"
+        android:padding="10dp"
+        android:text="@string/txtHamster"
+        android:textAlignment="center"
+        android:textColor="#F8F3F3"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/txt_gato" />
+
+    <CheckBox
+        android:id="@+id/txt_perro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="136dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="59dp"
+        android:padding="10dp"
+        android:text="@string/txtPerro"
+        android:textAlignment="center"
+        android:textColor="#E6E5E5"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/txt_QueAnimalTiene" />
+
+    <CheckBox
+        android:id="@+id/OtroVeterinario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:text="@string/CheckBox_OtroVeterinario"
+        android:textAlignment="center"
+        android:textColor="#F6F5F5"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/logoGato"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/icon_gatos" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/logoHamster"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/icon_hamster" />
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/logoPerro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_QueAnimalTiene"
+        app:srcCompat="@drawable/icono_perro" />
 
     <TextView
         android:id="@+id/txt_veterinaria"
@@ -47,86 +128,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_veterinaria" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="40dp"
-        android:contentDescription="@string/logoGato"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:srcCompat="@drawable/icon_gatos" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="40dp"
-        android:contentDescription="@string/logoHamster"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:srcCompat="@drawable/icon_hamster" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="30dp"
-        android:contentDescription="@string/logoPerro"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_QueAnimalTiene"
-        app:srcCompat="@drawable/icono_perro" />
-
-
-    <CheckBox
-        android:id="@+id/txt_hamster"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="111dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="96dp"
-        android:padding="10dp"
-        android:text="@string/txtHamster"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/txt_gato" />
-
-    <CheckBox
-        android:id="@+id/txt_perro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="136dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="59dp"
-        android:padding="10dp"
-        android:text="@string/txtPerro"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/txt_QueAnimalTiene" />
-
-    <CheckBox
-        android:id="@+id/OtroVeterinario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:padding="10dp"
-        android:text="@string/CheckBox_OtroVeterinario"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
     <TextView
         android:id="@+id/in_OtroVeterinario"

@@ -11,15 +11,13 @@
         android:id="@+id/BotonComida"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginEnd="31dp"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="80dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/comida"
         android:text="@string/BotonComida"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/BotonMedicina"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Productos_txt" />
 
@@ -27,61 +25,61 @@
         android:id="@+id/BotonMedicina"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="91dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/medicina"
         android:text="@string/BotonMedicina"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/BotonComida"
         app:layout_constraintTop_toBottomOf="@+id/Productos_txt" />
 
     <ImageButton
         android:id="@+id/BotonMascotas"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginEnd="31dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/mascotas"
         android:text="@string/BotonMascotas"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/BotonLimpieza"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BotonComida" />
 
     <ImageButton
         android:id="@+id/BotonLimpieza"
         android:layout_width="80dp"
-        android:layout_height="100dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginTop="30dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/limpieza"
         android:text="@string/BotonLimpieza"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/BotonMascotas"
         app:layout_constraintTop_toBottomOf="@+id/BotonMedicina" />
 
     <ImageButton
         android:id="@+id/BotonMedicos"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginEnd="31dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="30dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/medicos"
         android:onClick="ingresarDoc"
         android:text="@string/BotonMedicos"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/BotonTecnicos"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Servicos_txt" />
 
     <ImageButton
         android:id="@+id/Veterinario"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="180dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="150dp"
         android:background="@drawable/veterinario"
         android:text="@string/BotonVeterinario"
         android:textSize="18sp"
@@ -91,26 +89,29 @@
 
     <ImageButton
         android:id="@+id/BotonTecnicos"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="60dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/tecnicos"
         android:onClick="ingresoTec"
         android:text="@string/BotonTecnicos"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/BotonMedicos"
         app:layout_constraintTop_toBottomOf="@+id/Servicos_txt" />
 
     <ImageView
         android:id="@+id/BotonCarrito"
         android:layout_width="64dp"
         android:layout_height="53dp"
-        android:layout_marginEnd="15dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
         android:backgroundTint="#668E68"
         android:contentDescription="@string/BotonCarrito"
-        app:layout_constraintBottom_toTopOf="@+id/Productos_txt"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/shopping_cart_icon_shopping_cart_png" />
 
     <TextView
@@ -149,4 +150,48 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Productos_txt" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="94dp"
+        android:text="@string/BotonComida"
+        android:textAlignment="center"
+        android:textColor="#0B0A0A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BotonComida" />
+
+    <TextView
+        android:id="@+id/txt_medicamentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="91dp"
+        android:text="@string/BotonMedicina"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BotonMedicina" />
+
+    <TextView
+        android:id="@+id/txt_comidaAnimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:text="@string/BotonMascotas"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BotonMascotas" />
+
+    <TextView
+        android:id="@+id/txt_limpieza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="91dp"
+        android:text="@string/BotonLimpieza"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BotonLimpieza" />
 </androidx.constraintlayout.widget.ConstraintLayout>
