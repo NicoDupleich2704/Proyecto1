@@ -9,13 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TiposComidaActivity"></activity>
-        <activity android:name=".ProductosAnimalesActivity" />
-        <activity android:name=".AnimalesActivity" />
+        <activity android:name=".AnimalesActivity"></activity>
         <activity android:name=".TecnicosActivity" />
         <activity android:name=".acivityDoctores" />
         <activity android:name=".InicioAppActivity" />
         <activity android:name=".IniciarSesion" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

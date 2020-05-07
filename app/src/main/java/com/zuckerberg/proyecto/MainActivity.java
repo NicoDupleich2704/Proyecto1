@@ -34,4 +34,9 @@ public class MainActivity extends AppCompatActivity {
         Intent ingresoTec = new Intent(this, TecnicosActivity.class);
         startActivity(ingresoTec);
     }
+
+    public void ingresoTipoComida(View view){
+        Intent ingresoTC = new Intent(this, TiposComidaActivity.class);
+        startActivity(ingresoTC);
+    }
 }
