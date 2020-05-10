@@ -8,7 +8,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class TiposComidaActivity extends AppCompatActivity {
+public class  TiposComidaActivity extends AppCompatActivity {
 
 
     ArrayList<String> tiposComida = new ArrayList<>();
