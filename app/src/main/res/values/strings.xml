@@ -1,6 +1,6 @@
 <resources>
     //menu
-    <string name="app_name">Proyecto</string>
+    <string name="app_name">!Cuarentena Ya!</string>
     <string name="BotonComida">Comida</string>
     <string name="BotonMedicina">Medicina</string>
     <string name="BotonMascotas">Mascotas</string>
