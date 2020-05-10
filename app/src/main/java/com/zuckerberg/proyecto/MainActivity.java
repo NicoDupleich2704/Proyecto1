@@ -43,9 +43,4 @@ public class MainActivity extends AppCompatActivity {
         Intent ingresoTC = new Intent(this, TiposComidaActivity.class);
         startActivity(ingresoTC);
     }
-
-    public void ingresoTiposMascotas (View view){
-        Intent ingresoTM = new Intent(this, ProductosAnimalesActivity.class);
-        startActivity(ingresoTM);
-    }
 }
