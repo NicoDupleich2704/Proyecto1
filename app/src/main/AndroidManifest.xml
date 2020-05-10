@@ -17,7 +17,8 @@
         <activity android:name=".TecnicosActivity" />
         <activity android:name=".acivityDoctores" />
         <activity android:name=".IniciarSesion" />
-
+        <activity android:name=".TiposComidaActivity"/>
+        <activity android:name=".AnimalesActivity"/>
         <activity android:name=".MainActivity">
 
         </activity>
