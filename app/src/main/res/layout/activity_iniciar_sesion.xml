@@ -62,7 +62,6 @@
         android:fontFamily="cursive"
         android:hint="@string/IngresaTuCelular"
         android:inputType="number"
-        android:text="@string/IngresaTuCelular"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -79,7 +78,6 @@
         android:ems="10"
         android:fontFamily="cursive"
         android:inputType="textPersonName"
-        android:text="@string/IngresaTuNombre"
         android:hint="@string/IngresaTuNombre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -98,7 +96,6 @@
         android:fontFamily="cursive"
         android:hint="@string/IngresaTuDireccion"
         android:inputType="textPostalAddress"
-        android:text="@string/IngresaTuDireccion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_CelularLogIn" />
