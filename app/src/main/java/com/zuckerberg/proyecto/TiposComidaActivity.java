@@ -1,18 +1,16 @@
 package com.zuckerberg.proyecto;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.util.ArrayList;
 
-public class  TiposComidaActivity extends AppCompatActivity {
-
+public class TiposComidaActivity extends AppCompatActivity {
 
     ArrayList<String> tiposComida = new ArrayList<>();
-
     ListView listViewTiposComida;
 
     @Override
