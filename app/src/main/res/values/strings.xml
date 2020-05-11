@@ -59,6 +59,9 @@
     <string name="txtHamster">"Hamster"</string>
     <string name="CheckBox_OtroVeterinario">"otro (Especifique)"</string>
     <string name="in_otroVeterinario">" "</string>
+    <string name="txtComidaAnimales">"Comida para Perros"</string>
+    <string name="txtComidaAnimales2">"Comida para Gatos"</string>
+    <string name="txtComidaAnimales3">"otros"</string>
 
 
    //TiposComida
