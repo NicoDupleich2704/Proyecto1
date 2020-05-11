@@ -9,7 +9,7 @@
         android:id="@+id/botonLacteos"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/lecheYderivados_imageButton" />
 
@@ -17,7 +17,7 @@
         android:id="@+id/botonPatatas"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_marginStart="270dp"
+        android:layout_marginStart="250dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/carnes_imageButton" />
@@ -26,7 +26,7 @@
         android:id="@+id/botonCarnesPescadoHuevo"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="190dp"
         android:background="@drawable/carnes_imageButton" />
 
@@ -34,7 +34,7 @@
         android:id="@+id/botonVerduras"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_marginStart="270dp"
+        android:layout_marginStart="250dp"
         android:layout_marginTop="190dp"
         android:background="@drawable/verdurasYhortalizas_imageButton" />
 
@@ -42,7 +42,7 @@
         android:id="@+id/botonFrutas"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="370dp"
         android:background="@drawable/frutas_imageButton" />
 
@@ -50,7 +50,7 @@
         android:id="@+id/botonCereales"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_marginStart="270dp"
+        android:layout_marginStart="250dp"
         android:layout_marginTop="370dp"
         android:background="@drawable/cereales_imageButton" />
 
@@ -61,5 +61,77 @@
         android:layout_marginStart="145dp"
         android:layout_marginTop="550dp"
         android:background="@drawable/bebidas_imageButton" />
+
+    <TextView
+        android:id="@+id/txt_LecheDerivados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/botonLacteos"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/txt_LechesDerivados"
+        android:textAlignment="center"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txt_patatas"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/botonPatatas"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-20dp"
+        android:text="@string/txt_PatatasLegumbresFrutosSecos"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txt_Carnes"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_below="@+id/botonCarnesPescadoHuevo"
+        android:textAlignment="center"
+        android:text="@string/txt_CarnePescadoHuevo" />
+
+    <TextView
+        android:id="@+id/txtVerduras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/botonVerduras"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="0dp"
+        android:textAlignment="center"
+        android:text="@string/txt_VerdurasHortalizas" />
+
+    <TextView
+        android:id="@+id/txt_frutas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/botonFrutas"
+        android:textAlignment="center"
+        android:layout_marginStart="85dp"
+        android:text="@string/txt_Frutas" />
+
+    <TextView
+        android:id="@+id/txt_Cereales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@+id/botonCereales"
+        android:layout_marginStart="245dp"
+        android:text="@string/txt_CerealesDerivados" />
+
+    <TextView
+        android:id="@+id/txt_bebidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginStart="180dp"
+        android:layout_below="@+id/botonBebidas"
+        android:text="@string/txt_Bebidas" />
 
 </>

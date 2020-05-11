@@ -61,8 +61,14 @@
     <string name="in_otroVeterinario">" "</string>
 
 
-    //ProductosAnimales
-    <string name="TituloProductosAnimales">"Productos Para Tus Mascotas"</string>
+   //TiposComida
+    <string name="txt_LechesDerivados">"Leche y Derivados"</string>
+    <string name="txt_CarnePescadoHuevo">"Carnes, Pesados y Huevo"</string>
+    <string name="txt_PatatasLegumbresFrutosSecos">"Patatas, Legumbres y Frutos Secos"</string>
+    <string name="txt_VerdurasHortalizas">"Verduras y Hortalizas"</string>
+    <string name="txt_Frutas">"Frutas"</string>
+    <string name="txt_CerealesDerivados">"Cereales y Derivados"</string>
+    <string name="txt_Bebidas">"Bebidas"</string>
 
 
 </resources>
