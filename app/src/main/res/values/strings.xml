@@ -64,7 +64,7 @@
     <string name="txtComidaAnimales3">"otros"</string>
 
 
-   //TiposComida
+    //TiposComida
     <string name="txt_LechesDerivados">"Leche y Derivados"</string>
     <string name="txt_CarnePescadoHuevo">"Carnes, Pesados y Huevo"</string>
     <string name="txt_PatatasLegumbresFrutosSecos">"Patatas, Legumbres y Frutos Secos"</string>
@@ -73,6 +73,9 @@
     <string name="txt_CerealesDerivados">"Cereales y Derivados"</string>
     <string name="txt_Bebidas">"Bebidas"</string>
 
+    //Leche y Derivados Activity
+    <string name="txt_TituloLeche">"Leche y Derivados"</string>
+    <string name="txt_SubTituloLeche">"Seleccione Los Productos Que Desee"</string>
 
 </resources>
 
