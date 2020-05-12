@@ -2,11 +2,14 @@ package com.zuckerberg.proyecto;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+
+import java.security.PublicKey;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -47,5 +50,10 @@ public class MainActivity extends AppCompatActivity {
     public void ingresoTiposMascotas (View view){
         Intent ingresoTM = new Intent(this, ProductosAnimales.class);
         startActivity(ingresoTM);
+    }
+
+    public void ingresoVet (View view){
+        Intent ingresoVET = new Intent(this, AnimalesActivity.class);
+        startActivity(ingresoVET);
     }
 }
