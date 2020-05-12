@@ -108,11 +108,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#D786E48A"
-        android:padding="20dp"
+        android:padding="10dp"
         android:text="@string/txt_veterinaria"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
