@@ -29,13 +29,13 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="1dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="35dp"
         android:onClick="IngresarComprar"
         android:text="@string/BotonIngresar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_DireccionLogIn" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_CelularLogIn" />
 
     <ImageView
         android:id="@+id/LogInLogo"
@@ -84,22 +84,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_RegistreseLogIn" />
 
-    <EditText
-        android:id="@+id/txt_DireccionLogIn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="10dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="30dp"
-        android:background="#B6B5B5"
-        android:ems="10"
-        android:fontFamily="cursive"
-        android:hint="@string/IngresaTuDireccion"
-        android:inputType="textPostalAddress"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_CelularLogIn" />
-
     <TextView
         android:id="@+id/txt_RegistreseLogIn"
         android:layout_width="wrap_content"
@@ -121,7 +105,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="1dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="35dp"
         android:background="#E8737070"
         android:fontFamily="sans-serif-black"
         android:padding="@dimen/activity_horizontal_margin"
@@ -131,6 +115,17 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="?android:attr/progressBarStyleHorizontal"
         app:layout_constraintTop_toBottomOf="@+id/BotonIngresar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
