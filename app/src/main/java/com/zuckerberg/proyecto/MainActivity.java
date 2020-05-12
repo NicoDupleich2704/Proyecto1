@@ -44,5 +44,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(ingresoTC);
     }
 
-
+    public void ingresoTiposMascotas (View view){
+        Intent ingresoTM = new Intent(this, ProductosAnimales.class);
+        startActivity(ingresoTM);
+    }
 }

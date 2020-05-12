@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondo_menu_animales"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+
+    <TextView
+        android:id="@+id/txt_animalitos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFB300"
+        android:padding="20dp"
+        android:text="@string/txtComidaAnimales0"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/BotonPerritos"
+        android:layout_width="215dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/icono_perrito"
+        app:layout_constraintBottom_toTopOf="@+id/BotonGatitos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_animalitos" />
+
+    <ImageButton
+        android:id="@+id/BotonGatitos"
+        android:layout_width="215dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/icono_catito"
+        app:layout_constraintBottom_toTopOf="@+id/BotonOtros"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BotonPerritos" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="215dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="296dp"
+        android:background="#FFB300"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/txtComidaAnimales"
+        android:textAlignment="center"
+        android:textColor="#0B0A0A"
+        app:layout_constraintEnd_toStartOf="@+id/BotonPerritos"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/BotonOtros"
+        android:layout_width="215dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/icono_others"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BotonGatitos" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="215dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="556dp"
+        android:background="#FFB300"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/txtComidaAnimales2"
+        android:textAlignment="center"
+        android:textColor="#0B0A0A"
+        app:layout_constraintEnd_toStartOf="@+id/BotonPerritos"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="215dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="804dp"
+        android:background="#FFB300"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/txtComidaAnimales3"
+        android:textAlignment="center"
+        android:textColor="#0B0A0A"
+        app:layout_constraintEnd_toStartOf="@+id/BotonPerritos"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
