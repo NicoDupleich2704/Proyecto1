@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".TecnicosActivity" />
+        <activity android:name=".ProductosAnimales" />
         <activity android:name=".acivityDoctores" />
         <activity android:name=".IniciarSesion" />
         <activity android:name=".TiposComidaActivity" />

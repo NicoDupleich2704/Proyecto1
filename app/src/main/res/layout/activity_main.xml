@@ -91,6 +91,7 @@
         android:layout_height="80dp"
         android:layout_marginTop="120dp"
         android:background="@drawable/veterinario"
+        android:onClick="ingresoTiposMascotas"
         android:text="@string/BotonVeterinario"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
