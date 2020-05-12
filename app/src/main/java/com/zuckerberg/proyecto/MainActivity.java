@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ingresarDoc(View view){
-        Intent ingresoDoc = new Intent(this, acivityDoctores.class);
+        Intent ingresoDoc = new Intent(MainActivity.this, acivityDoctores.class);
         startActivity(ingresoDoc);
     }
 
