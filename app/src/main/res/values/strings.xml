@@ -62,6 +62,9 @@
     <string name="txtComidaAnimales">"Comida para Perros"</string>
     <string name="txtComidaAnimales2">"Comida para Gatos"</string>
     <string name="txtComidaAnimales3">"otros"</string>
+    <string name="txtComidaAnimales0">"Comida para Mascotas"</string>
+
+
 
 
     //TiposComida
