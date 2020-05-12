@@ -35,10 +35,11 @@
     <string name="InicioIngresar">ingresar</string>
 
     //doctores
-    <string name="TXT_Sintomas">"Describa sus Sintomas:"</string>
-    <string name="DescrippcionSintomas">""</string>
-    <string name="SeleccioneEspecialidad">"Seleccione el especialesta correspondiente y se contactara con usted en breve."</string>
-    <string name="TextoDoctore">"Medicos"</string>
+    <string name="TXT_Sintomas">"A continuación describa sus síntomas:"</string>
+    <string name="DescrippcionSintomas">"Escriba aqui..."</string>
+    <string name="SeleccioneEspecialidad">"A continuación seleccione el especialista:"</string>
+    <string name="TextoDoctore">"Médicos"</string>
+    <string name="botonEnviar">"Enviar"</string>
 
     //tecnicos
     <string name="TextoTecnicos">"Tecnicos"</string>

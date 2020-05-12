@@ -1,73 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/fondo_doctores"
-    android:padding="20dp"
-    tools:context=".acivityDoctores">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/EspecialistaDoc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:fontFamily="monospace"
-        android:text="@string/SeleccioneEspecialidad"
-        android:textColor="#000000"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/DescripcionSintomas" />
-
-    <TextView
-        android:id="@+id/txt_SintomasDoc"
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
-        android:fontFamily="serif"
-        android:text="@string/TXT_Sintomas"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_Doctores" />
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo_doctores"
+        android:scaleType="centerCrop"/>
 
-    <TextView
-        android:id="@+id/DescripcionSintomas"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:background="#BE95A5CF"
-        android:text="@string/DescrippcionSintomas"
-        app:layout_constraintTop_toBottomOf="@+id/txt_SintomasDoc"
-        tools:layout_editor_absoluteX="20dp" />
+        android:layout_height="match_parent"
+        android:background="@color/colorSemiTransluscentFondo">
 
-    <TextView
-        android:id="@+id/txt_Doctores"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:background="#B7AAD875"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:padding="10sp"
-        android:text="@string/TextoDoctore"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="128dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TextoDoctore"
+            android:textSize="@dimen/tamanio_letra_titulo"
+            android:background="@color/accentServicios"
+            android:textColor="@color/colorBlanco"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="@dimen/padding_titulo"/>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="400dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EspecialistaDoc" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_margin="16dp">
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/TXT_Sintomas"
+                android:gravity="start"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorNegro"
+                android:padding="10dp"/>
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:hint="@string/DescrippcionSintomas"
+                android:inputType="text"
+                android:gravity="start"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/background_sintomas"
+                android:padding="10dp"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/SeleccioneEspecialidad"
+                android:gravity="start"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorNegro"
+                android:padding="10dp"
+                android:layout_marginTop="30dp"/>
+
+
+            <Button
+                android:id="@+id/boton_enviar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/botonEnviar"
+                android:background="@drawable/boton_background"
+                android:textSize="20sp"
+                android:padding="15dp"
+                android:textColor="@color/colorBlanco"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</FrameLayout>
