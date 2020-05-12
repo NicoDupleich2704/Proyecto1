@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:backgroundTint="#FFFFFF">
 
+
     <ImageButton
         android:id="@+id/botonLacteos"
         android:layout_width="120dp"
