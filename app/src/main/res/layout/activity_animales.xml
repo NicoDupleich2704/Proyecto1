@@ -121,7 +121,7 @@
         android:id="@+id/txt_QueAnimalTiene"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="30dp"
         android:text="@string/txt_queanimaltiene"
         android:textColor="#000000"
         android:textSize="16sp"
