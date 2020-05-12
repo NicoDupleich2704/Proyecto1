@@ -17,7 +17,7 @@
         android:layout_height="120dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
-        android:background="@drawable/lecheYderivados_imageButton" />
+        android:background="@drawable/tipo1" />
 
     <ImageButton
         android:id="@+id/botonPatatas"

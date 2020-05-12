@@ -9,8 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LecheDerivadosActivity"></activity>
-        <activity android:name=".ProductosAnimales" />
         <activity android:name=".InicioAppActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +21,7 @@
         <activity android:name=".IniciarSesion" />
         <activity android:name=".TiposComidaActivity" />
         <activity android:name=".AnimalesActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
