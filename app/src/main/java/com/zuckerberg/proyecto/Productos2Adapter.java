@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 public class Productos2Adapter extends ArrayAdapter<Productos1> {
 
-    private ArrayList<Productos1> productos;
+    private ArrayList<Productos2> productos;
 
     public Productos2Adapter(Context context, Productos1[] objects) {
         super(context, 0, objects);
