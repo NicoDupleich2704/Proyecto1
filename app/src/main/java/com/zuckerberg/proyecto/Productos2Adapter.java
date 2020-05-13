@@ -14,7 +14,7 @@ import androidx.annotation.Nullable;
 import java.util.ArrayList;
 
 
-public class Productos2Adapter extends ArrayAdapter<Productos1> {
+public class Productos2Adapter extends ArrayAdapter<Productos2> {
 
     private ArrayList<Productos2> productos;
 

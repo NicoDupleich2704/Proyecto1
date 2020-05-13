@@ -14,6 +14,18 @@ public class Productos2 implements Serializable {
         this.precio = precio;
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setImagen(int imagen) {
+        this.imagen = imagen;
+    }
+
+    public void setPrecio(int precio) {
+        this.precio = precio;
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -26,15 +38,4 @@ public class Productos2 implements Serializable {
         return precio;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public void setImagen(int imagen) {
-        this.imagen = imagen;
-    }
-
-    public void setPrecio(int precio) {
-        this.precio = precio;
-    }
 }
