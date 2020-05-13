@@ -2,13 +2,13 @@ package com.zuckerberg.proyecto;
 
 import java.io.Serializable;
 
-public class Productos1 implements Serializable {
+public class Producto implements Serializable {
 
     private String nombre;
     private int imagen;
     private int precio;
 
-    Productos1(String nombre, int imagen, int precio) {
+    Producto(String nombre, int imagen, int precio) {
         this.nombre = nombre;
         this.imagen = imagen;
         this.precio = precio;
