@@ -51,14 +51,14 @@
 
     //animales
     <string name="txt_veterinaria">"Veterinaria"</string>
-    <string name="txt_queanimaltiene">"¿Que Animal Tiene?"</string>
+    <string name="txt_queanimaltiene">"Seleccione el animal que tiene:"</string>
     <string name="logoPerro">""</string>
     <string name="logoGato">""</string>
     <string name="logoHamster">""</string>
     <string name="txtPerro">"Perro"</string>
     <string name="txtGato">"Gato"</string>
     <string name="txtHamster">"Hamster"</string>
-    <string name="CheckBox_OtroVeterinario">"otro (Especifique)"</string>
+    <string name="CheckBox_OtroVeterinario">"Otro (Especifique)"</string>
     <string name="in_otroVeterinario">" "</string>
     <string name="txtComidaAnimales">"Comida para Perros"</string>
     <string name="txtComidaAnimales2">"Comida para Gatos"</string>
