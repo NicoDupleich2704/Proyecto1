@@ -10,9 +10,9 @@ import java.util.ArrayList;
 
 public class LecheDerivados extends AppCompatActivity {
 
-    ArrayList<String> productosLecheDerivados = new ArrayList<>();
-
     ListView lvProductos;
+
+    ArrayList<Productos1> listProductos1 = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,15 +21,13 @@ public class LecheDerivados extends AppCompatActivity {
 
         lvProductos = findViewById(R.id.lvProductosLecheDerivados);
 
-        productosLecheDerivados.add("Leche");
-        productosLecheDerivados.add("Leche Condensada");
-        productosLecheDerivados.add("Mantequilla");
-        productosLecheDerivados.add("Queso");
-        productosLecheDerivados.add("Yogurt");
+        listProductos1.add(new Productos1("Leche", R.drawable.leche));
+        listProductos1.add(new Productos1("Leche Condensada", R.drawable.leche_condensada ));
+        listProductos1.add(new Productos1("Mantequilla", R.drawable.leche_mantequilla));
+        listProductos1.add(new Productos1("Queso", R.drawable.leche_queso));
+        listProductos1.add(new Productos1("Yogurt", R.drawable.leche_yogurt));
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, productosLecheDerivados);
-
+        Productos1Adapter adapter = new Productos1Adapter(this, listProductos1);
         lvProductos.setAdapter(adapter);
-
     }
 }
