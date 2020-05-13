@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class acivityDoctores extends AppCompatActivity {
 
-    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
