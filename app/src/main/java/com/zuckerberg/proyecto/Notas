@@ -1,0 +1,12 @@
+1. Utilizar solo 1 clase Productos
+2. Implementar el CartSharedPreferencesManager (Igual a proyecto de ejemplo)
+3. Crear un activity del carrito (con un boton de "Comprar")
+    Cuando el usuario haga click en el boton, se limpia el carrito y vuelve atras.
+
+    button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    cartSharedPreferencesManager.deleteAll();
+                    finish();
+                }
+            });
