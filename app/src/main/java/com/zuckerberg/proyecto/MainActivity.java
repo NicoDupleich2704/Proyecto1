@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ingresoVet (View view){
-        Intent ingresoVET = new Intent(this, AnimalesActivity.class);
+        Intent ingresoVET = new Intent(this, VeterinariosActivity.class);
         startActivity(ingresoVET);
     }
 }
