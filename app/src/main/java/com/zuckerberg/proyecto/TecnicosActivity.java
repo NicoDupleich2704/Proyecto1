@@ -13,7 +13,7 @@ public class TecnicosActivity extends AppCompatActivity {
     Button botonSiguiente;
     EditText problema;
     EditText tipoDeTecnico;
-    
+
 
 
     @Override
@@ -26,25 +26,22 @@ public class TecnicosActivity extends AppCompatActivity {
         problema = findViewById(R.id.problem);
 
 
-
-
-
         botonSiguiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (problema.getEditableText()!=null && tipoDeTecnico.getEditableText()!= null){
-                    botonSiguiente.setEnabled(true);
-                    if(botonSiguiente.isEnabled()){
-                        finish();
-                    }
-                    else{
-                        Toast.makeText(TecnicosActivity.this, R.string.mensaje_no_enviar, Toast.LENGTH_SHORT).show();
-                    }
-                }
 
+                if (problema.getText().toString().isEmpty() || tipoDeTecnico.getText().toString().isEmpty()){
+                    Toast.makeText(TecnicosActivity.this, R.string.mensaje_no_enviar, Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    finish();
+                }
 
             }
         });
+
+
+
 
 
     }

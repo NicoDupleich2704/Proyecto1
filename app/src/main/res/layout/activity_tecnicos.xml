@@ -110,8 +110,7 @@
                     android:textSize="20sp"
                     android:padding="15dp"
                     android:textColor="@color/colorBlanco"
-                    android:textStyle="bold"
-                    android:enabled="false"/>
+                    android:textStyle="bold" />
 
 
             </LinearLayout>
