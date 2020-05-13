@@ -31,5 +31,7 @@ public class CarnesActivity extends AppCompatActivity {
         listProductos2.add(new Productos2("Sabalo", R.drawable.carnes_sabalo, 60));
         listProductos2.add(new Productos2("Trucha", R.drawable.carnes_trucha, 60));
 
+        Productos2Adapter adapter = new Productos2Adapter(this, listProductos2);
+        lvProductos2.setAdapter(adapter);
     }
 }

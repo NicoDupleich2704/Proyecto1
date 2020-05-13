@@ -29,5 +29,7 @@ public class LecheDerivados extends AppCompatActivity {
 
         Productos1Adapter adapter = new Productos1Adapter(this, listProductos1);
         lvProductos1.setAdapter(adapter);
+
+
     }
 }

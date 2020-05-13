@@ -18,8 +18,9 @@ public class Productos2Adapter extends ArrayAdapter<Productos1> {
 
     private ArrayList<Productos2> productos;
 
-    public Productos2Adapter(Context context, Productos1[] objects) {
+    public Productos2Adapter(Context context, ArrayList<Productos2> objects) {
         super(context, 0, objects);
+        productos = objects;
     }
 
     @NonNull
