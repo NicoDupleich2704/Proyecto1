@@ -50,7 +50,6 @@
     <string name="mensaje_no_enviar">"Por favor llene todos los campos solicitados"</string>
 
 
-
     //animales
     <string name="txt_veterinaria">"Veterinaria"</string>
     <string name="txt_queanimaltiene">"Seleccione el animal que tiene:"</string>
@@ -81,6 +80,12 @@
     //Leche y Derivados Activity
     <string name="txt_TituloLeche">"Leche y Derivados"</string>
     <string name="txt_SubTituloLeche">"Seleccione Los Productos Que Desee"</string>
+
+
+    //carrito
+    <string name="txt_carrito">"Carrito"</string>
+    <string name="boton_finalizar_compra">"Finalizar Compra"</string>
+
 
 </resources>
 
