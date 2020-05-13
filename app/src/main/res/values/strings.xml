@@ -47,6 +47,8 @@
     <string name="InTecnicos">""</string>
     <string name="txt_queTecnico">"Especifique el técnico que requiere:"</string>
     <string name="DescripcionLogoTecnicos">""</string>
+    <string name="mensaje_no_enviar">"Por favor llene todos los campos solicitados"</string>
+
 
 
     //animales
