@@ -25,7 +25,7 @@ public class CarnesActivity extends AppCompatActivity {
         listProductos2.add(new Productos2("Chuleta", R.drawable.carnes_chuleta, 30));
         listProductos2.add(new Productos2("Maple de huevos", R.drawable.carnes_huevo, 15));
         listProductos2.add(new Productos2("Carne Molida", R.drawable.carnes_molida, 33));
-        listProductos2.add(new Productos2("Mortadela", R.drawable.carnes_molida, 34));
+        listProductos2.add(new Productos2("Mortadela", R.drawable.carnes_mortadela, 34));
         listProductos2.add(new Productos2("Pollo", R.drawable.carnes_pollo, 38));
         listProductos2.add(new Productos2("Punta de S", R.drawable.carnes_punta, 55));
         listProductos2.add(new Productos2("Sabalo", R.drawable.carnes_sabalo, 60));
