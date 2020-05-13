@@ -51,10 +51,12 @@
                 android:orientation="horizontal">
 
                 <RadioGroup
+                    android:id="@+id/election"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp">
                     <RadioButton
+                        android:id="@+id/eperro"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/txtPerro"
@@ -65,6 +67,7 @@
                         android:gravity="center"/>
 
                     <RadioButton
+                        android:id="@+id/egato"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/txtGato"
@@ -75,6 +78,7 @@
                         android:gravity="center"/>
 
                     <RadioButton
+                        android:id="@+id/ehamster"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/txtHamster"
@@ -85,6 +89,7 @@
                         android:gravity="center"/>
 
                     <RadioButton
+                        android:id="@+id/eotro"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/CheckBox_OtroVeterinario"
@@ -127,6 +132,7 @@
             </LinearLayout>
 
             <EditText
+                android:id="@+id/descrip"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/Escribir_aqui"
@@ -134,11 +140,13 @@
                 android:layout_marginBottom="20dp"
                 android:gravity="start"
                 android:background="@drawable/background_sintomas"
-                android:padding="10dp"/>
+                android:padding="10dp"
+                android:enabled="false"/>
 
 
 
             <Button
+                android:id="@+id/enviarok"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/botonEnviar"
