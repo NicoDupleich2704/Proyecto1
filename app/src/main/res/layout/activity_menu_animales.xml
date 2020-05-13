@@ -44,7 +44,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.413"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_animalitos" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_animalitos"
+        android:onClick="ingresarPerros"/>
 
     <ImageButton
         android:id="@+id/BotonGatitos"
@@ -59,7 +60,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        android:onClick="ingresarGatos"/>
 
     <TextView
         android:id="@+id/textView1"
@@ -89,7 +91,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.414"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/BotonGatitos" />
+        app:layout_constraintTop_toBottomOf="@+id/BotonGatitos"
+        android:onClick="ingresarOtros"/>
 
     <TextView
         android:id="@+id/textView"

@@ -26,7 +26,8 @@
         android:layout_marginStart="250dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/tipo3" />
+        android:background="@drawable/tipo3"
+        android:onClick="ingresarPatatas" />
 
     <ImageButton
         android:id="@+id/botonCarnesPescadoHuevo"
@@ -43,7 +44,8 @@
         android:layout_height="120dp"
         android:layout_marginStart="250dp"
         android:layout_marginTop="190dp"
-        android:background="@drawable/tipo4" />
+        android:background="@drawable/tipo4"
+        android:onClick="ingresarVerduras"/>
 
     <ImageButton
         android:id="@+id/botonFrutas"
@@ -51,7 +53,8 @@
         android:layout_height="120dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="370dp"
-        android:background="@drawable/tipo5" />
+        android:background="@drawable/tipo5"
+        android:onClick="ingresarFrutas"/>
 
     <ImageButton
         android:id="@+id/botonCereales"
@@ -59,7 +62,8 @@
         android:layout_height="120dp"
         android:layout_marginStart="250dp"
         android:layout_marginTop="370dp"
-        android:background="@drawable/tipo6" />
+        android:background="@drawable/tipo6"
+        android:onClick="ingresarCereales"/>
 
     <ImageButton
         android:id="@+id/botonBebidas"
@@ -67,7 +71,8 @@
         android:layout_height="120dp"
         android:layout_marginStart="145dp"
         android:layout_marginTop="550dp"
-        android:background="@drawable/tipo7" />
+        android:background="@drawable/tipo7"
+        android:onClick="ingresarBebidas"/>
 
     <TextView
         android:id="@+id/txt_Lechederivados"

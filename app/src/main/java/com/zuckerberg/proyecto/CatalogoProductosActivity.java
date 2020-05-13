@@ -8,9 +8,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 
@@ -18,7 +15,7 @@ public class CatalogoProductosActivity extends AppCompatActivity {
 
     ListView lvProductos1;
 
-    ArrayList<Producto> listProductos1 = new ArrayList<>();
+    ArrayList<Productos> listProductos1 = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +27,7 @@ public class CatalogoProductosActivity extends AppCompatActivity {
         Intent intent = getIntent();
         if (intent.hasExtra("productos")) {
             Gson gson = new Gson();
-            Type listType = new TypeToken<ArrayList<Producto>>() {
+            Type listType = new TypeToken<ArrayList<Productos>>() {
             }.getType();
             listProductos1 = gson.fromJson(intent.getStringExtra("productos"), listType);
         }

@@ -14,11 +14,11 @@ import androidx.annotation.Nullable;
 import java.util.ArrayList;
 
 
-public class Productos1Adapter extends ArrayAdapter<Producto> {
+public class Productos1Adapter extends ArrayAdapter<Productos> {
 
-    private ArrayList<Producto> productos;
+    private ArrayList<Productos> productos;
 
-    public Productos1Adapter(Context context, ArrayList<Producto> objects) {
+    public Productos1Adapter(Context context, ArrayList<Productos> objects) {
         super(context, 0, objects);
         productos = objects;
     }
