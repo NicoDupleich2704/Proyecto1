@@ -36,16 +36,16 @@
 
     //doctores
     <string name="TXT_Sintomas">"A continuación describa sus síntomas:"</string>
-    <string name="DescrippcionSintomas">"Escriba aqui..."</string>
+    <string name="Escribir_aqui">"Escriba aqui..."</string>
     <string name="SeleccioneEspecialidad">"A continuación seleccione el especialista:"</string>
     <string name="TextoDoctore">"Médicos"</string>
     <string name="botonEnviar">"Enviar"</string>
 
     //tecnicos
-    <string name="TextoTecnicos">"Tecnicos"</string>
-    <string name="TextoProblema">"Describa el problema que tiene."</string>
+    <string name="TextoTecnicos">"Técnicos"</string>
+    <string name="TextoProblema">"A continuación describa el problema que tiene:"</string>
     <string name="InTecnicos">""</string>
-    <string name="txt_queTecnico">"Que Tecnico Necesita"</string>
+    <string name="txt_queTecnico">"Especifique el técnico que requiere:"</string>
     <string name="DescripcionLogoTecnicos">""</string>
 
 
