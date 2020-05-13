@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class LecheDerivados extends AppCompatActivity {
 
-    ListView lvProductos;
+    ListView lvProductos1;
 
     ArrayList<Productos1> listProductos1 = new ArrayList<>();
 
@@ -19,7 +19,7 @@ public class LecheDerivados extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_leche_derivados);
 
-        lvProductos = findViewById(R.id.lvProductosLecheDerivados);
+        lvProductos1 = findViewById(R.id.lvProductosLecheDerivados);
 
         listProductos1.add(new Productos1("Leche", R.drawable.leche, 12));
         listProductos1.add(new Productos1("Leche Condensada", R.drawable.leche_condensada, 15 ));
@@ -28,6 +28,8 @@ public class LecheDerivados extends AppCompatActivity {
         listProductos1.add(new Productos1("Yogurt", R.drawable.leche_yogurt, 10));
 
         Productos1Adapter adapter = new Productos1Adapter(this, listProductos1);
-        lvProductos.setAdapter(adapter);
+        lvProductos1.setAdapter(adapter);
+
+
     }
 }

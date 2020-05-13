@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LecheDerivados"></activity>
+        <activity android:name=".CarnesActivity"></activity>
+        <activity android:name=".LecheDerivados" />
         <activity android:name=".ProductosMedicinas" />
         <activity android:name=".InicioAppActivity">
             <intent-filter>
@@ -23,7 +24,7 @@
         <activity android:name=".acivityDoctores" />
         <activity android:name=".IniciarSesion" />
         <activity android:name=".TiposComidaActivity" />
-        <activity android:name=".AnimalesActivity" />
+        <activity android:name=".VeterinariosActivity" />
         <activity android:name=".MainActivity" />
     </application>
 

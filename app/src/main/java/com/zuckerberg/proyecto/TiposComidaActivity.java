@@ -28,4 +28,9 @@ public class TiposComidaActivity extends AppCompatActivity {
         Intent ingresoLac = new Intent(this, LecheDerivados.class);
         startActivity(ingresoLac);
     }
+
+    public void ingresarCarnes (View view){
+        Intent ingresoCar = new Intent(this, CarnesActivity.class);
+        startActivity(ingresoCar);
+    }
 }
