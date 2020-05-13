@@ -21,11 +21,11 @@ public class LecheDerivados extends AppCompatActivity {
 
         lvProductos = findViewById(R.id.lvProductosLecheDerivados);
 
-        listProductos1.add(new Productos1("Leche", R.drawable.leche));
-        listProductos1.add(new Productos1("Leche Condensada", R.drawable.leche_condensada ));
-        listProductos1.add(new Productos1("Mantequilla", R.drawable.leche_mantequilla));
-        listProductos1.add(new Productos1("Queso", R.drawable.leche_queso));
-        listProductos1.add(new Productos1("Yogurt", R.drawable.leche_yogurt));
+        listProductos1.add(new Productos1("Leche", R.drawable.leche, 12));
+        listProductos1.add(new Productos1("Leche Condensada", R.drawable.leche_condensada, 15 ));
+        listProductos1.add(new Productos1("Mantequilla", R.drawable.leche_mantequilla, 14));
+        listProductos1.add(new Productos1("Queso", R.drawable.leche_queso, 20));
+        listProductos1.add(new Productos1("Yogurt", R.drawable.leche_yogurt, 10));
 
         Productos1Adapter adapter = new Productos1Adapter(this, listProductos1);
         lvProductos.setAdapter(adapter);
