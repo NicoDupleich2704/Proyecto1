@@ -41,7 +41,7 @@ public class CatalogoProductosActivity extends AppCompatActivity {
         lvProductos1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-//                cartSharedPreferencesManager.addToCart(listProductos1.get(position));
+             //cartSharedPreferencesManager.addToCart(listProductos1.get(position));
             }
         });
     }

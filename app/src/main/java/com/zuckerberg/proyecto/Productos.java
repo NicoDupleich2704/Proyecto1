@@ -1,28 +1,23 @@
 package com.zuckerberg.proyecto;
 
-import java.io.Serializable;
+import com.google.gson.annotations.Expose;
 
-public class Productos implements Serializable {
 
-    private String nombre;
-    private int imagen;
-    private int precio;
+public class Productos{
 
-    Productos(String nombre, int imagen, int precio) {
+    @Expose
+    String nombre;
+
+    @Expose
+    int imagen;
+
+    @Expose
+    int precio;
+
+
+    public Productos(String nombre, int imagen, int precio) {
         this.nombre = nombre;
         this.imagen = imagen;
-        this.precio = precio;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public void setImagen(int imagen) {
-        this.imagen = imagen;
-    }
-
-    public void setPrecio(int precio) {
         this.precio = precio;
     }
 
@@ -30,13 +25,27 @@ public class Productos implements Serializable {
         return nombre;
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     public int getImagen() {
         return imagen;
+    }
+
+    public void setImagen(int imagen) {
+        this.imagen = imagen;
     }
 
     public int getPrecio() {
         return precio;
     }
+
+    public void setPrecio(int precio) {
+        this.precio = precio;
+    }
+
+
 
 }
 
