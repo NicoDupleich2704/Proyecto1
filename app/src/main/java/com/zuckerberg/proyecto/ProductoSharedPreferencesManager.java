@@ -43,7 +43,17 @@ public class ProductoSharedPreferencesManager {
 
     public void delete (Productos productos){
         ArrayList<Productos> productos1 = getProducts();
-        productos1.remove(productos);
+        int posicion = -1;
+        for(int i = 0; i < productos1.size(); i++){
+            if(productos.nombre.equals(productos1.get(i).nombre)){
+                posicion = i;
+                break;
+            }
+        }
+        if(posicion > -1 ){
+            productos1.remove(posicion);
+        }
+
         writeToSharePreferences(productos1);
         Toast.makeText(context, "Producto eliminado al carrito", Toast.LENGTH_SHORT).show();
     }
