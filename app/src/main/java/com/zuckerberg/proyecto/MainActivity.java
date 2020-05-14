@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     ImageButton ingresarTiposComida;
     ImageButton ingresarTiposMascotas;
     ImageButton ingresarMedicinas;
+    ImageButton ingresarCarrito;
 
 
     @Override
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         ingresarTiposComida = (ImageButton)findViewById(R.id.BotonComida);
         ingresarTiposMascotas = (ImageButton)findViewById(R.id.BotonMascotas);
         ingresarMedicinas = (ImageButton)findViewById(R.id.BotonMedicina);
+        ingresarCarrito = (ImageButton)findViewById(R.id.BotonCarrito);
 
 
     }
@@ -88,5 +90,10 @@ public class MainActivity extends AppCompatActivity {
         Intent ingresoLim = new Intent(this, CatalogoProductosActivity.class);
         ingresoLim.putExtra("productos", new Gson().toJson(listProductos));
         startActivity(ingresoLim);
+    }
+
+    public void ingresarCarrito(View view){
+        Intent ingresoCarr = new Intent(this, CarritoActivity.class);
+        startActivity(ingresoCarr);
     }
 }

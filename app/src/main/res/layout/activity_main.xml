@@ -128,13 +128,14 @@
         app:layout_constraintStart_toEndOf="@+id/BotonMedicos"
         app:layout_constraintTop_toBottomOf="@+id/Servicos_txt" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/BotonCarrito"
         android:layout_width="60dp"
         android:layout_height="40dp"
         android:layout_marginEnd="30dp"
         android:layout_marginTop="30dp"
         android:backgroundTint="#668E68"
+        android:onClick="ingresarCarrito"
         android:contentDescription="@string/BotonCarrito"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
