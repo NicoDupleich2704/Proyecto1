@@ -20,7 +20,7 @@ public class ProductoSharedPreferencesManager {
             this.context = context;
     }
 
-    public static void addToCart(Productos productos){
+    public void addToCart(Productos productos){
 
         ArrayList<Productos> currentProducts = getProducts();
         currentProducts.add(productos);

@@ -20,12 +20,16 @@ public class CatalogoProductosActivity extends AppCompatActivity {
 
     ArrayList<Productos> listProductos1 = new ArrayList<>();
 
+    ProductoSharedPreferencesManager productoSharedPreferencesManager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catalogo_productos);
 
+
         lvProductos1 = findViewById(R.id.lvProductosLecheDerivados);
+        productoSharedPreferencesManager = new ProductoSharedPreferencesManager(this);
 
         Intent intent = getIntent();
         if (intent.hasExtra("productos")) {
@@ -41,7 +45,7 @@ public class CatalogoProductosActivity extends AppCompatActivity {
         lvProductos1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-             ProductoSharedPreferencesManager.addToCart(listProductos1.get(position));
+             productoSharedPreferencesManager.addToCart(listProductos1.get(position));
             }
         });
     }
