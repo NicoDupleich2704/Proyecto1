@@ -62,6 +62,7 @@ public class CarritoActivity extends AppCompatActivity {
         mensaje.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
+
                 finish();
                 Toast.makeText(CarritoActivity.this, "Compra exitosa", Toast.LENGTH_SHORT).show();
             }
@@ -69,7 +70,7 @@ public class CarritoActivity extends AppCompatActivity {
         mensaje.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                
+
                 Toast.makeText(CarritoActivity.this, "Cancelado", Toast.LENGTH_SHORT).show();
             }
         });
