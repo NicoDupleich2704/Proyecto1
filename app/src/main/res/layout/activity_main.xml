@@ -136,7 +136,6 @@
         android:layout_marginTop="30dp"
         android:backgroundTint="#668E68"
         android:onClick="ingresarCarrito"
-        android:contentDescription="@string/BotonCarrito"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/shopping_cart_icon_shopping_cart_png" />

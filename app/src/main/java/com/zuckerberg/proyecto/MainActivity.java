@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         ingresarTiposComida = (ImageButton)findViewById(R.id.BotonComida);
         ingresarTiposMascotas = (ImageButton)findViewById(R.id.BotonMascotas);
         ingresarMedicinas = (ImageButton)findViewById(R.id.BotonMedicina);
-        ingresarCarrito = (ImageButton)findViewById(R.id.BotonCarrito);
+        ingresarCarrito = findViewById(R.id.BotonCarrito);
 
 
     }
