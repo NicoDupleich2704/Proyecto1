@@ -25,14 +25,7 @@ public class ProductoSharedPreferencesManager {
         ArrayList<Productos> currentProducts = getProducts();
         currentProducts.add(productos);
 
-        SharedPreferences sharedPreferences = context.getSharedPreferences("ShoppingCart", Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = sharedPreferences.edit();
-
-        Gson gson = new Gson();
-        String productString = gson.toJson(currentProducts);
-
-        editor.putString("productos", productString);
-        editor.apply();
+        writeToSharePreferences(currentProducts);
 
         Toast.makeText(context, "Producto añadido al carrito", Toast.LENGTH_SHORT).show();
     }
@@ -46,6 +39,24 @@ public class ProductoSharedPreferencesManager {
         ArrayList<Productos> productos = gson.fromJson(productosString, listType);
 
         return productos;
+    }
+
+    public void delete (Productos productos){
+        ArrayList<Productos> productos1 = getProducts();
+        productos1.remove(productos);
+        writeToSharePreferences(productos1);
+        Toast.makeText(context, "Producto eliminado al carrito", Toast.LENGTH_SHORT).show();
+    }
+
+    public void writeToSharePreferences(ArrayList<Productos> productos){
+        SharedPreferences sharedPreferences = context.getSharedPreferences("ShoppingCart", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+
+        Gson gson = new Gson();
+        String productString = gson.toJson(productos);
+
+        editor.putString("productos", productString);
+        editor.apply();
     }
 
     public int getTotal(){

@@ -45,8 +45,6 @@ public class Productos{
         this.precio = precio;
     }
 
-
-
 }
 
 

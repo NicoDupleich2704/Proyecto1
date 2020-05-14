@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ingresarCarrito(View view){
-        Intent ingresoCarr = new Intent(this, CarritoActivity.class);
+        Intent ingresoCarr = new Intent(MainActivity.this, CarritoActivity.class);
         startActivity(ingresoCarr);
     }
 }
