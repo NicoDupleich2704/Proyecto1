@@ -1,7 +1,9 @@
 package com.zuckerberg.proyecto;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -34,7 +36,7 @@ public class TecnicosActivity extends AppCompatActivity {
                     Toast.makeText(TecnicosActivity.this, R.string.mensaje_no_enviar, Toast.LENGTH_SHORT).show();
                 }
                 else{
-                    finish();
+                    mostrarMensaje();
                 }
 
             }
@@ -44,5 +46,26 @@ public class TecnicosActivity extends AppCompatActivity {
 
 
 
+    }
+
+    private void mostrarMensaje(){
+        AlertDialog.Builder mensaje = new AlertDialog.Builder(this);
+        mensaje.setTitle("Enviar");
+        mensaje.setMessage("El técnico se contactara con usted mediante videollamada");
+        mensaje.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finish();
+                Toast.makeText(TecnicosActivity.this, "Enviado", Toast.LENGTH_SHORT).show();
+            }
+        });
+        mensaje.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finish();
+                Toast.makeText(TecnicosActivity.this, "Cancelado", Toast.LENGTH_SHORT).show();
+            }
+        });
+        mensaje.show();
     }
 }

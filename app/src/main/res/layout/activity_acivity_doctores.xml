@@ -47,6 +47,7 @@
                 android:layout_margin="10dp"/>
 
             <EditText
+                android:id="@+id/sintomas"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:hint="@string/Escribir_aqui"
@@ -69,10 +70,13 @@
             <Spinner
                 android:id="@+id/listaEspecialistas"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:background="@color/colorSemiTransluscent"
+                android:layout_margin="15dp"
+                android:padding="15dp"/>
 
             <Button
-
+                android:id="@+id/botoncito_envio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/botonEnviar"
@@ -80,7 +84,8 @@
                 android:textSize="20sp"
                 android:padding="15dp"
                 android:textColor="@color/colorBlanco"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"/>
 
 
         </LinearLayout>
